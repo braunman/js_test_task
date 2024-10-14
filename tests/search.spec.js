@@ -14,7 +14,7 @@ test('Perform multiple searches from top menu', async ({ webApp }) => {
   await webApp.menuBar.goToSearch()
   await webApp.searchPage.search(searchText)
   expect(await webApp.searchResultPage.searchTextInUrl()).toBe(searchText)
-  expect(await webApp.searchResultPage.getFirstTextResult()).toContain(searchText, `Search result must contain ${searchText}`)
+  expect(await webApp.searchResultPage.getFirstTextResult()).toContain(searchText)
 });
 
 
