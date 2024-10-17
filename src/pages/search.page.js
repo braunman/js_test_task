@@ -16,14 +16,6 @@ export class SearchPage extends BasePage {
         await step(`Search by text ${text}`, async () => {
             await this.fill(this.searchBarInput, text)
             await this.click(this.searchButton);
-            // await step(`Wait for POST request to be sent to the server and receive a response`, async () => {
-            //     await this.page.waitForResponse(response =>
-            //         response.url().includes('/api/search') &&
-            //         response.request().method() === 'POST' &&
-            //         response.status() === 200
-            //     );
-            // })
-
         })
     }
 
