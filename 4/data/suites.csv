@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Tue Oct 22 13:54:56 GMT 2024","Tue Oct 22 13:55:04 GMT 2024","8579","chromium","search.spec.js","","","","Perform multiple searches from top menu",""
