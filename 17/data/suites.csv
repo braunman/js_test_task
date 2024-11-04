@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","7396","Perform multiple searches from top menu","chromium","Mon Nov 04 01:13:46 GMT 2024","failed","Mon Nov 04 01:13:53 GMT 2024","","search.spec.js","",""
